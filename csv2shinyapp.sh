@@ -83,7 +83,7 @@ shinyUI(fluidPage(
         tabPanel("Misc.",
             helpText("Names of variables in the dataset"),
             verbatimTextOutput("names"),
-            helpText("Variables used"),
+            helpText("Input vars used"),
             verbatimTextOutput("usedvars")
         )
       )
